@@ -1,8 +1,11 @@
 import './App.css'
 
 function App() {
+  return <Page />
+}
 
-  return (
+function Page(){
+  return(
     <>
       <img src="react-logo.png" width="40px" alt="React logo" />    
       <h1>Fun facts about React!</h1>
@@ -16,5 +19,4 @@ function App() {
     </>
   )
 }
-
 export default App
