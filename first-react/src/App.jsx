@@ -6,8 +6,15 @@ function App() {
 
 function Header() {
   return(
-    <header>
-      <img src="react-logo.png" width="40px" alt="React logo" />    
+    <header className="logo-navbar">
+      <img className="logo" src="react-logo.png" alt="React logo" />    
+      <nav>
+        <ul className="nav-list">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </header>
   )
 }
