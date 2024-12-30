@@ -15,6 +15,16 @@ h1{
   gap:50px;
 }
 
+.facts-list{
+  margin-top: 46px;
+  max-width:325px;
+}
+
+.facts-list > li{
+  padding-block:10px;
+  line-height:25px;
+}
+
 .logo-navbar{
   align-items: center;
   display:flex;
